@@ -1,0 +1,9 @@
+extends _layouts/_layout.pug
+
+block var
+	- title = 'Home'
+	- bodyClass = 'index-page'
+
+block main
+	include ../_components/test-2/index.pug
+	include ../_components/test-1/index.pug

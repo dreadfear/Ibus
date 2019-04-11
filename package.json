@@ -1,0 +1,38 @@
+{
+		"name": "shinkai",
+		"version": "1.0.0",
+		"description": "Shinkai",
+		"main": "gulpfile.babel.js",
+		"scripts": {
+				"start": "gulp",
+				"test": "echo \"Error: no test specified\" && exit 1"
+		},
+		"author": "DF",
+		"license": "MIT",
+		"devDependencies": {
+				"@babel/core": "^7.4.3",
+				"@babel/preset-env": "^7.4.3",
+				"@babel/register": "^7.4.0",
+				"autoprefixer": "^9.5.0",
+				"browser-sync": "^2.26.3",
+				"del": "^3.0.0",
+				"gulp": "^4.0.0",
+				"gulp-babel": "^8.0.0",
+				"gulp-clean-css": "^4.0.0",
+				"gulp-concat": "^2.6.1",
+				"gulp-hub": "^4.2.0",
+				"gulp-if": "^2.0.2",
+				"gulp-load-plugins": "^1.5.0",
+				"gulp-postcss": "^8.0.0",
+				"gulp-pug": "^4.0.1",
+				"gulp-rename": "^1.4.0",
+				"gulp-sass": "^4.0.2",
+				"gulp-sourcemaps": "^2.6.4",
+				"gulp-terser": "^1.1.7",
+				"node-sass": "^4.11.0",
+				"graceful-fs": "^4.1.15"
+		},
+		"dependencies": {
+				"gulp-plumber": "^1.2.1"
+		}
+}

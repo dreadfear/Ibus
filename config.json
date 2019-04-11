@@ -1,0 +1,57 @@
+{
+	"scripts": [
+		"bower_components/jquery/dist/jquery.min.js",
+		"bower_components/owl.carousel/dist/owl.carousel.min.js",
+		"bower_components/aos/dist/aos.js",
+		"bower_components/popper.js/dist/umd/popper.min.js",
+		"bower_components/bootstrap/dist/js/bootstrap.min.js"
+
+
+	],
+	"styles": [
+		"./src/_library/bootstrap.css",
+		"bower_components/owl.carousel/dist/assets/owl.carousel.css",
+		"bower_components/aos/dist/aos.css",
+		"bower_components/css-hamburgers/dist/hamburgers.css",
+		"bower_components/font-awesome/css/fontawesome.min.css",
+		"bower_components/font-awesome/css/regular.min.css",
+		"bower_components/font-awesome/css/solid.min.css",
+		"bower_components/mdi/css/materialdesignicons.min.css",
+
+
+
+
+
+
+
+
+		"bower_components/animate.css/source/_base.css",
+		"bower_components/animate.css/source/fading_entrances/fadeIn.css",
+		"bower_components/animate.css/source/fading_entrances/fadeInDown.css",
+		"bower_components/animate.css/source/fading_entrances/fadeInLeft.css",
+		"bower_components/animate.css/source/fading_entrances/fadeInRight.css",
+		"bower_components/animate.css/source/fading_entrances/fadeInUp.css",
+
+		"bower_components/animate.css/source/flippers/flip.css",
+		"bower_components/animate.css/source/flippers/flipInX.css",
+		"bower_components/animate.css/source/flippers/flipInY.css",
+
+		"bower_components/animate.css/source/lightspeed/lightSpeedIn.css",
+
+		"bower_components/animate.css/source/sliding_entrances/slideInDown.css",
+		"bower_components/animate.css/source/sliding_entrances/slideInLeft.css",
+		"bower_components/animate.css/source/sliding_entrances/slideInRight.css",
+		"bower_components/animate.css/source/sliding_entrances/slideInUp.css",
+
+		"bower_components/animate.css/source/zooming_entrances/zoomIn.css",
+		"bower_components/animate.css/source/zooming_entrances/zoomInDown.css",
+		"bower_components/animate.css/source/zooming_entrances/zoomInLeft.css",
+		"bower_components/animate.css/source/zooming_entrances/zoomInRight.css",
+		"bower_components/animate.css/source/zooming_entrances/zoomInUp.css"
+
+
+		
+
+
+	]
+}
