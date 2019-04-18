@@ -1,3 +1,2 @@
-console.log(123);
-console.log("das");
-console.log("dadass")
+document.addEventListener("DOMContentLoaded", function (event) {
+});

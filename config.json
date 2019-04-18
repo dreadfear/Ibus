@@ -1,6 +1,7 @@
 {
 	"scripts": [
 		"bower_components/jquery/dist/jquery.min.js",
+		"bower_components/swiper/dist/js/swiper.min.js",
 		"bower_components/owl.carousel/dist/owl.carousel.min.js",
 		"bower_components/aos/dist/aos.js",
 		"bower_components/popper.js/dist/umd/popper.min.js",
@@ -9,13 +10,17 @@
 
 	],
 	"styles": [
-		"./src/_library/bootstrap.css",
+		"./src/_library/_fonts.css",
+		"./src/_library/_bootstrap.css",
+		"./src/_library/_grid.css",
+		"bower_components/swiper/dist/css/swiper.min.css",
 		"bower_components/owl.carousel/dist/assets/owl.carousel.css",
 		"bower_components/aos/dist/aos.css",
 		"bower_components/css-hamburgers/dist/hamburgers.css",
-		"bower_components/font-awesome/css/fontawesome.min.css",
-		"bower_components/font-awesome/css/regular.min.css",
-		"bower_components/font-awesome/css/solid.min.css",
+		"bower_components/font-awesome/css/fontawesome.css",
+		"bower_components/font-awesome/css/solid.css",
+		"bower_components/font-awesome/css/brands.css",
+		"bower_components/font-awesome/css/regular.css",
 		"bower_components/mdi/css/materialdesignicons.min.css",
 
 
