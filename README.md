@@ -5,7 +5,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-The original build source web project, a clone version of the first Adam.
+
 
 
 
@@ -20,7 +20,7 @@ The original build source web project, a clone version of the first Adam.
 
 
 # New Features!
-  - Not yet !
+  - Devided section to small component
 ### Tech
 
  Base on these open source projects to work properly:
@@ -28,7 +28,7 @@ The original build source web project, a clone version of the first Adam.
 * [Pugjs] - HTML compile 
 * [Sass] - CSS extension language
 * [markdown-it] - Markdown parser done right. Fast and easy to extend.
-* [Twitter Bootstrap] - great UI boilerplate for modern web apps
+* [Bootstrap] - great UI boilerplate for modern web apps use only Grid system
 * [node.js] - evented I/O for the backend
 * [Gulp] - the streaming build system
 * [jQuery] - duh
