@@ -24,7 +24,7 @@ var gulp = require('gulp');
 	//Copy image
 	gulp.task('copy-images', function () {
 		return gulp.src([
-				'./img/**/*.{png,jpg,jpeg,svg,gif}',
+				'./src/img/**/*.{png,jpg,jpeg,svg,gif}',
 			])
 			.pipe(gulp.dest('./dist/img'));
 	});

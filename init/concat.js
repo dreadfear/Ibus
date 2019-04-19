@@ -10,10 +10,10 @@ gulp.task('concat-css',()  => {
 	return gulp.src(config.styles,{
 		allowEmpty: true,
 	})
-		.pipe(concat('library.min.css'))
-		.pipe(cssnano())
+		.pipe(concat('library.css'))
 		.pipe(gulp.dest('./dist/css'));
 });
+
 
 
 
@@ -22,12 +22,12 @@ gulp.task('concat-js',()  => {
 	return gulp.src(config.scripts,{
 		allowEmpty: true,
 	})
-		.pipe(concat('library.min.js'))
+		.pipe(concat('library.js'))
 		.pipe(gulp.dest('./dist/js'));
 });
 
 
-gulp.task('concat-build-js',()  => {
+gulp.task('concat-js-prod',()  => {
 	let config = JSON.parse(fs.readFileSync('./config.json'));
 	return gulp.src(config.scripts,{
 		allowEmpty: true,
@@ -35,4 +35,17 @@ gulp.task('concat-build-js',()  => {
 		.pipe(concat('library.min.js'))
 		.pipe(terser())
 		.pipe(gulp.dest('./dist/js'));
+});
+
+
+
+
+gulp.task('concat-css-prod',()  => {
+	let config = JSON.parse(fs.readFileSync('./config.json'));
+	return gulp.src(config.styles,{
+		allowEmpty: true,
+	})
+		.pipe(concat('library.min.css'))
+		.pipe(cssnano())
+		.pipe(gulp.dest('./dist/css'));
 });

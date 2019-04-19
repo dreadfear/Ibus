@@ -3,9 +3,8 @@
 		"bower_components/jquery/dist/jquery.min.js",
 		"bower_components/swiper/dist/js/swiper.min.js",
 		"bower_components/owl.carousel/dist/owl.carousel.min.js",
-		"bower_components/aos/dist/aos.js",
-		"bower_components/popper.js/dist/umd/popper.min.js",
-		"bower_components/bootstrap/dist/js/bootstrap.min.js"
+		"bower_components/aos/dist/aos.js"
+
 
 
 	],
@@ -13,10 +12,10 @@
 		"./src/_library/_fonts.css",
 		"./src/_library/_bootstrap.css",
 		"./src/_library/_grid.css",
+		"./src/_library/_aos.css",
+		"./src/_library/_hamburgers.css",
 		"bower_components/swiper/dist/css/swiper.min.css",
 		"bower_components/owl.carousel/dist/assets/owl.carousel.css",
-		"bower_components/aos/dist/aos.css",
-		"bower_components/css-hamburgers/dist/hamburgers.css",
 		"bower_components/font-awesome/css/fontawesome.css",
 		"bower_components/font-awesome/css/solid.css",
 		"bower_components/font-awesome/css/brands.css",
