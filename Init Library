@@ -1,0 +1,4 @@
+function zoomMap() {
+	var el = document.querySelector('.pinch-zoom');
+	new PinchZoom.default(el, {});
+}
