@@ -1,0 +1,24 @@
+$('.ajaxzone').on('click', function name(event) {
+	event.preventDefault();
+	$('.ajaxzone').parent().removeClass('active')
+	$(this).parent().addClass('active')
+	let pageurl = $(this).attr('href');
+	$.ajax({
+		url: pageurl,
+		success: function (data) {
+			let html = $(data).find('.ajaxzonewrap').html();
+			if (html != undefined && html != '')
+				$('.ajaxzonewrap').html($(data).find('.ajaxzonewrap').html());
+			else {
+				$('.ajaxzonewrap').html($(data).find('.ajaxzonewrap'));
+			}
+		},
+	});
+	//to change the browser URL to 'pageurl'
+	if (pageurl != window.location) {
+		window.history.pushState({
+			path: pageurl
+		}, '', pageurl);
+	}
+
+})
