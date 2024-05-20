@@ -9,3 +9,15 @@ export PATH="/home/sven/FlutterSDK/flutter/bin/:$PATH"
 flutter config --enable-linux-desktop
 flutter config --android-sdk=/home/sven/Android/Sdk
 flutter config --android-studio-dir=/home/sven/Android/android-studio
+
+#Java SDK 
+setting.json
+	"java.configuration.runtimes": [
+		{
+			"name": "JavaSE-11",
+			"path": "/home/sven/Java-11-JDK",
+			"sources": "/home/sven/Java-11-JDK/lib/src.zip",
+			"javadoc": "https://docs.oracle.com/en/java/javase/11/docs/api",
+			"default": true
+		}
+	]
